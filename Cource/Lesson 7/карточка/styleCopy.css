@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: ghostwhite;
+}
+h1  {
+    text-align: center;
+    color: slateblue;
+    font-size: 50px;
+}
+hr {
+    margin: 20px;
+}
+ul {
+    margin-left: 20px;
+}
+li {
+    margin: 5px;
+    color: #17171B;
+    font-size: 18px;
+    list-style-type: none;
+}
+
+li::before {
+    content: "🖤"; 
+    padding-right: 10px; 
+}
+
+#bigtext {
+    color: #d13b88;
+}
+
+#bigtext::before {
+    content: "🧡"; 
+}
+
+#bigtext:hover {
+    color: dodgerblue;
+}
+
+.description {
+    padding: 5px;
+    margin: 20px;
+    text-align: center;
+    border: 2px solid rgba(37, 68, 155, 0.729);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#tut {
+    color:#d13b88;
+    font-size: 40px;
+}
+
+.information {
+    margin: 30px;
+    font-size: 24px;
+}
+.information p {
+    color: #d13b88;
+    padding: 5px;
+}

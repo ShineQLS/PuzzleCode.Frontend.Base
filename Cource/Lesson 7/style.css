@@ -1,0 +1,15 @@
+ul :nth-child(2n){
+    color: #ff0000;
+}
+li {
+    list-style-type: none;
+   }
+li::before {
+    color: dodgerblue;
+    content: "▪"; 
+    padding-right: 10px; 
+}
+
+input::placeholder{
+    color: blue;
+}
