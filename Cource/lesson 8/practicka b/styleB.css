@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: blueviolet;
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+img {
+    width: 400px;
+    height: 300px;
+    padding: 10px;
+    display: relative;
+}
+
+p {
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    color: chocolate;
+}
+.text-sibu {
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    left: 450px;
+    top: 20px;
+    color: aquamarine;
+}
+.text-koli
+{
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    left: 880px;
+    top: 20px;
+    color: aquamarine;
+}
+.text-korgi
+{
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    left: 20px;
+    top: 350px;
+    color: aquamarine;
+}
+.text-chic
+{
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    left:450px;
+    top: 350px;
+    color: aquamarine;
+}
+.text-chay
+{
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    left: 880px;
+    top: 350px;
+    color: aquamarine;
+}
+.block {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100px;
+    left: 15%;
+    overflow: auto;
+}
+.inline {
+    display: inline-block;
+}
+
