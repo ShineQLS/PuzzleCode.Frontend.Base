@@ -1,3 +1,204 @@
 * {
-    outline: 1px solid red;
+    overflow: auto;
+}
+.block-1 {
+    width: 1920px;
+    height: 954px;
+    background-image: url(./шапка\ 1.png);
+    margin: 0;
+    display: relative;
+    overflow:hidden;
+}
+
+.content-block1 {
+    margin-left: 240px;
+    padding-top: 268px;
+    position: relative;
+}
+
+p {
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#textP-Original {
+     padding: 0;
+    margin: 0;
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+} 
+
+h1 {
+    color: #F7C35F;
+    font-family: Livvic;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top:37px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0px;
+}
+
+#divP-Dissuade {
+    margin-top: 10px;
+    vertical-align: center;
+    height: 100px;
+    margin-bottom:30px;
+    margin-top: auto;
+}
+
+#textP-Dissuade {
+    margin: 0;
+    width: 730px;
+    padding-top: 20px;
+}
+
+button {
+    border-radius: 20px;
+    background: #F7C35F;
+    border: none;
+    transition: all 0,3s;
+}
+
+button:hover {
+    border-radius: 20px;
+    background: #F6D086;
+    border: none;
+    transition:background 0,3s;
+}
+
+button:focus {
+    border-radius: 20px;
+    background: #C58D21;
+    border: none;
+    outline: none;
+    transition:background 0,3s;
+}
+
+button:active {
+    border-radius: 20px;
+    background: #A16C06;
+    border: none;
+    transition:background 0,3s;
+}
+
+#button-Discover:active {
+    display: flex;
+    padding: 25px 50px;
+    align-items: flex-start;
+    gap: 10px;
+
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: 0px;
+    transition:color 0,3s;
+}
+
+#button-Discover {
+
+    display: flex;
+    padding: 25px 50px;
+    align-items: flex-start;
+    gap: 10px;
+
+    color: #1A1A1A;
+    font-family: Livvic;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+.icon-leaf {
+    background: url(./листочки\ 1.svg);
+    width: 75px;
+    height: 62px;
+    position: absolute;
+    top: 314px;
+    left: 564px;
+}
+
+.block-2 {
+    width: 1920px;
+    height: 656px;
+    background-color:#334B35;
+    margin: 0; 
+    padding: 0;
+}
+
+.foods {
+    margin-left: 240px;
+    margin-right: 240px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.apple {
+    width: 183px;
+    height: 177px;
+    background-color: #445945;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15px;
+
+}
+
+.foods-svg {
+    width: 60px;
+    height: 60px;
+}
+
+.foods-text {
+    margin-bottom: 0px;
+}
+
+#Popular-Foods {
+    margin-top: 78px;
+    text-align: center;
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+#Quality-Fruits {
+    text-align: center;
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
