@@ -44,8 +44,13 @@ a {
 }
 
 .block-1 {
-    width: 1920px;
-    height: 954px;
+    max-width: 1920px;
+    width: 100%;
+    max-height: 954px;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-image: url(./шапка\ 1.png);
     margin: 0;
     display: relative;
@@ -53,8 +58,9 @@ a {
 }
 
 .content-block1 {
-    margin-left: 240px;
-    padding-top: 268px;
+    margin-left: 12.5%;
+    padding-top: 14%;
+    padding-bottom: 13%;
     position: relative;
 }
 
@@ -173,34 +179,42 @@ button:active {
     margin: 0px;
 }
 
+
+
 .icon-leaf {
-    background: url(./листочки\ 1.svg);
-    width: 75px;
-    height: 62px;
-    position: absolute;
-    top: 314px;
-    left: 564px;
+        background: url(./листочки\ 1.svg);
+        width: 4.5%;
+        height: 6.5%;
+        position: absolute;
+        top: 31.97%;
+        margin-left: 33.85%;
 }
 
 .block-2 {
-    width: 1920px;
-    height: 656px;
+    max-width: 1920px;
+    width: 100%;
+    max-height: 656px;
+    height: 100%;
     background-color:#334B35;
     margin: 0; 
     padding: 0;
 }
 
 .foods {
-    margin-left: 240px;
-    margin-right: 240px;
-    margin-top: 100px;
+    width: 80%;
+    margin: auto;
+    margin-top: 6%;
+    padding-bottom: 12%;
     display: flex;
     justify-content: space-between;
 }
 
+.foods_all {
+    width: 12.087%;
+}
+
 .apple {
-    width: 183px;
-    height: 177px;
+    height: 169.634%;
     background-color: #445945;
     display: flex;
     align-items: center;
@@ -234,8 +248,8 @@ button:active {
 }
 
 .foods-svg {
-    width: 60px;
-    height: 60px;
+    width: 32.8%;
+    height: 34.8%;
 }
 
 .foods-text {
