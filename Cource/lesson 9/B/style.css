@@ -1,6 +1,48 @@
-* {
-    overflow: auto;
+header {
+    width: 1920px;
+    height: 110px;
+    background: #334B35;
 }
+
+.nav_logo {
+    display: flex;
+}
+
+.logo {
+    width: 197.461px;
+    height: 30.952px;
+    background-image: url(./Logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 39.86px;
+    margin-left: 241.13px;
+}
+
+ul {
+    display: flex;
+    width: 802px;
+    height: 33px;
+    justify-content: space-between;
+    margin-left: 412.41px;
+    margin-top: 39px;
+    list-style-type:  none;
+}
+
+a {
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+#home {
+    border-bottom: 2px solid #F7C35F;
+}
+
 .block-1 {
     width: 1920px;
     height: 954px;
@@ -75,14 +117,14 @@ button {
     border-radius: 20px;
     background: #F7C35F;
     border: none;
-    transition: all 0,3s;
+    transition: all 0.3s;
 }
 
 button:hover {
     border-radius: 20px;
     background: #F6D086;
     border: none;
-    transition:background 0,3s;
+    transition:background 0.3s;
 }
 
 button:focus {
@@ -90,14 +132,14 @@ button:focus {
     background: #C58D21;
     border: none;
     outline: none;
-    transition:background 0,3s;
+    transition:background 0.3s;
 }
 
 button:active {
     border-radius: 20px;
     background: #A16C06;
     border: none;
-    transition:background 0,3s;
+    transition:background 0.3s;
 }
 
 #button-Discover:active {
@@ -105,7 +147,6 @@ button:active {
     padding: 25px 50px;
     align-items: flex-start;
     gap: 10px;
-
     color: #FFF;
     font-family: Livvic;
     font-size: 15px;
@@ -114,16 +155,14 @@ button:active {
     line-height: normal;
     text-transform: uppercase;
     margin: 0px;
-    transition:color 0,3s;
+    transition:color 0.3s;
 }
 
 #button-Discover {
-
     display: flex;
     padding: 25px 50px;
     align-items: flex-start;
     gap: 10px;
-
     color: #1A1A1A;
     font-family: Livvic;
     font-size: 15px;
@@ -159,7 +198,6 @@ button:active {
     justify-content: space-between;
 }
 
-
 .apple {
     width: 183px;
     height: 177px;
@@ -169,7 +207,30 @@ button:active {
     justify-content: center;
     flex-direction: column;
     border-radius: 15px;
+}
 
+.apple:hover {
+    background-color: #F7C35F;
+    transition: all 0.3s linear;
+    border-radius: 15px;
+    color: #000;
+}
+
+.apple:hover .foods-text {
+    color: #000;
+    margin-bottom: 0px;
+}
+
+.apple:active {
+    background-color: #263C28;
+    transition: all 0.3s linear;
+    border-radius: 15px;
+}
+
+.apple:focus {
+    background-color: #6A8A6D;
+    transition: all 0.3s linear;
+    border-radius: 15px;
 }
 
 .foods-svg {
@@ -182,7 +243,8 @@ button:active {
 }
 
 #Popular-Foods {
-    margin-top: 78px;
+    margin-top: 0px;
+    padding-top: 78px;
     text-align: center;
     color: #FFF;
     font-family: Livvic;
@@ -201,4 +263,413 @@ button:active {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+.block-3 {
+    width: 1920px;
+    height: 694px;
+    background-image: url(./image\ block3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#h2_block3 {
+    color: #FFF;
+    font-size: 50px;
+    font-weight: 700;
+    margin-left: 240px;
+    margin-top: 284px;
+}
+
+.block-4 {
+    width: 1920px;
+    height: 853px;
+    background-image: url(./Recently\ completed\ work.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#h3_block-4 {
+    margin-left: 825px;
+    margin-top: 130px;
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+#h2_block-4 {
+    margin-left: 716px;
+    margin-top: 20px;
+    color: #FFF;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.Allcarousel {
+    margin-left: 239px;
+    width: 1441px;
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.carousel_1 {
+    margin-top: 100px;
+    width: 318px;
+    height: 350px;
+    background-image: url(./трактор.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition-duration: 0.3s;
+}
+
+ .carousel_1:hover {
+    box-shadow: 0px 5px 10px 0px rgba(247, 195, 95, 0.1);
+    outline: 1px solid #F7C35F;
+    outline-offset: -1px;
+    border-radius: 10px;
+    transform:translateY(-25px);
+    transition:transform linear;
+    transition-duration: 0.3s;
+} 
+
+.carousel_1:focus {
+    outline: 1px solid #F7C35F;
+    outline-offset: -1px;
+    border-radius: 10px;
+    transition:outline 0.3s;
+}
+
+.carousel_1:focus .arrow {
+    background-image: url(./Vector1.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 24px;
+    width: 24px;
+    margin-top: 285px;
+    margin-left: 269px;
+}
+
+.carousel_1:active {
+    outline: 1px solid #F7C35F;
+    outline-offset: -1px;
+    border-radius: 10px;
+    transition:outline 0.3s;
+}
+
+.carousel_1:active .arrow {
+    background-image: url(./Vector2.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 24px;
+    width: 24px;
+    margin-top: 285px;
+    margin-left: 269px;
+    }
+
+.carousel_2 {
+    margin-top: 100px;
+    width: 318px;
+    height: 350px;
+    background-image: url(./2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition-duration: 0.3s;
+}
+
+
+.carousel_2:hover {
+    box-shadow: 0px 5px 10px 0px rgba(247, 195, 95, 0.1);
+    outline: 1px solid #F7C35F;
+    outline-offset: -1px;
+    border-radius: 10px;
+    transform:translateY(-25px);
+    transition:transform linear;
+    transition-duration: 0.3s;
+}
+
+.carousel_2:focus {
+    outline: 1px solid #F7C35F;
+    outline-offset: -1px;
+    border-radius: 10px;
+    transition:outline 0.3s;
+}
+
+.carousel_2:focus .arrow {
+    background-image: url(./Vector1.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 24px;
+    width: 24px;
+    margin-top: 285px;
+    margin-left: 269px;
+}
+
+
+.carousel_2:active {
+    outline: 1px solid #F7C35F;
+    outline-offset: -1px;
+    border-radius: 10px;
+    transition:outline 0.3s;
+}
+
+.carousel_2:active .arrow {
+    background-image: url(./Vector2.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 24px;
+    width: 24px;
+    margin-top: 285px;
+    margin-left: 269px;
+}
+
+.carousel_3 {
+    margin-top: 100px;
+    width: 318px;
+    height: 350px;
+    background-image: url(./3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition-duration: 0.3s;
+}
+
+.carousel_3:hover {
+    box-shadow: 0px 5px 10px 0px rgba(247, 195, 95, 0.1);
+    outline: 1px solid #F7C35F;
+    outline-offset: -1px;
+    border-radius: 10px;
+    transform:translateY(-25px);
+    transition:transform linear;
+    transition-duration: 0.3s;
+}
+
+.carousel_3:focus {
+    outline: 1px solid #F7C35F;
+    outline-offset: -1px;
+    border-radius: 10px;
+    transition:outline 0.3s;
+}
+
+.carousel_3:focus .arrow {
+    background-image: url(./Vector1.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 24px;
+    width: 24px;
+    margin-top: 285px;
+    margin-left: 269px;
+}
+
+
+.carousel_3:active {
+    outline: 1px solid #F7C35F;
+    outline-offset: -1px;
+    border-radius: 10px;
+    transition:outline 0.3s;
+}
+
+.carousel_3:active .arrow {
+    background-image: url(./Vector2.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 24px;
+    width: 24px;
+    margin-top: 285px;
+    margin-left: 269px;
+}
+
+.carousel_4 {
+    margin-top: 100px;
+    width: 318px;
+    height: 350px;
+    background-image: url(./4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition-duration: 0.3s;
+}
+
+.carousel_4:hover {
+    box-shadow: 0px 5px 10px 0px rgba(247, 195, 95, 0.1);
+    outline: 1px solid #F7C35F;
+    outline-offset: -1px;
+    border-radius: 10px;
+    transform:translateY(-25px);
+    transition:transform linear;
+    transition-duration: 0.3s;
+}
+
+.carousel_4:focus {
+    outline: 1px solid #F7C35F;
+    outline-offset: -1px;
+    border-radius: 10px;
+    transition:outline 0.3s;
+}
+
+.carousel_4:focus .arrow {
+    background-image: url(./Vector1.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 24px;
+    width: 24px;
+    margin-top: 285px;
+    margin-left: 269px;
+}
+
+.carousel_4:active {
+    outline: 1px solid #F7C35F;
+    outline-offset: -1px;
+    border-radius: 10px;
+    transition:outline 0.3s;
+}
+
+.carousel_4:active .arrow {
+    background-image: url(./Vector2.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 24px;
+    width: 24px;
+    margin-top: 285px;
+    margin-left: 269px;
+}
+
+.text_carousel {
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 264px;
+}
+
+.Agriculture {
+    margin: 0;
+    padding-bottom: 5px;
+    color: #F7C35F;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.NaturalWay {
+    margin: 0;
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.arrow {
+    background-image: url(./Vector.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 24px;
+    width: 24px;
+    margin-top: 285px;
+    margin-left: 269px;
+}
+
+footer {
+    width: 1920px;
+    height: 110px;
+    background-color: #2A3B2A;
+    overflow: hidden;
+}
+
+.allFooter {
+    margin: 0px;
+    height: 110px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+
+input {
+    height: 40px;
+    width: 222px;
+    border: 1px solid rgba(255, 255, 255, 0.50);
+    direction: none;
+    border-radius: 50px;
+    background: #263C28;
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Livvic;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left:20px ;
+}
+
+input:focus {
+    outline: 0;
+    padding-left: 20px;
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Livvic;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Livvic;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#buttonFoot {
+    color: #1A1A1A;
+    font-family: Livvic;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    border-radius: 45px;
+    width:45px;
+    height:45px;
+}
+
+.footerText {
+    color: #FFF;
+    font-family: Livvic;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#footerTextAll {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#emailAndButton {
+    width: 320px;
+    display: flex;
+    justify-content: space-between;
 }
