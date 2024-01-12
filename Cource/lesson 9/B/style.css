@@ -279,6 +279,52 @@ button:active {
     line-height: normal;
 }
 
+@media (max-width: 600px) {
+   
+   p {
+    font-size: 16px;
+    }
+
+    #Popular-Foods {
+     font-size: 16px;
+    }
+
+    #Quality-Fruits {
+        font-size: 24px;
+    }
+
+    .foods-text {
+        font-size: 14px;
+    }
+
+
+    .foods {
+        width: 80%;
+        margin: auto;
+        margin-top: 6%;
+        padding-bottom: 12%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    } 
+
+    .foods_all {
+        width: 30.087%;
+        margin-bottom: 20%;
+    }
+    
+    .apple {
+        margin: auto;
+        height: 169.634%;
+        background-color: #445945;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+    }
+}
+
+
 .block-3 {
     width: 1920px;
     height: 694px;
