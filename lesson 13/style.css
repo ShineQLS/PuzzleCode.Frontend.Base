@@ -8,6 +8,10 @@ vmin – наименьшее из (vw, vh), в IE9 обозначается vm
 vmax – наибольшее из (vw, vh)
 */
 
+* {
+    max-width: 100%;
+}
+
 html {
     font-family: Roboto;
     box-sizing: border-box;
@@ -440,20 +444,24 @@ background-size: cover;
     display: flex;
     margin-top: 8rem;
 }
-/*Доделать все с формой*/
+
 input {
     height: 6rem;
     width: 30.9rem;
     background: #F9F9F9;
     color:#2A254B;
-    font-family: Roboto;
-    font-size: 2rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 140%; /* 28px */
     padding: 0;
     padding-left:3.2rem ;
     border: none;
+    outline: none;
+}
+
+input[type~="email"] {
+    font-size: 2rem;
+    font-family: Roboto;
+    line-height: 140%; /* 28px */
 }
 
 #button_block_6 {
@@ -468,13 +476,12 @@ input {
     border: none;
     padding: 0;
     background:#2A254B;
-    outline: 1px solid #2A254B;
 }
 
 input::placeholder {
     color: #2A254B;
     font-family: Roboto;
-    font-size: 20px;
+    font-size: 2rem;
     font-style: normal;
     font-weight: 400;
     line-height: 140%; /* 28px */
@@ -484,7 +491,9 @@ input::placeholder {
 
 }
 input:focus {
-    outline: #2A254B solid 1px;
+    outline:1px solid #2A254B;
+    outline-offset:-1px;
+    height: 6rem;
     padding-left: 3.2rem;
     color: #2A254B;
     font-family: Roboto;
@@ -494,3 +503,236 @@ input:focus {
     line-height: normal;
 }
 
+.block_7 {
+    display: flex;
+    width: 144rem;
+    height: 100%;
+    margin: auto;
+}
+
+.block_7_left_container {
+    width: 72rem;
+    height: 60.4rem;
+}
+
+.block_7_all_text {
+    width: 53.6rem;
+    margin-top: 7.2rem;
+    margin-left: 8.4rem;
+}
+
+#block_7_text {
+    color: #2A254B;
+    font-size: 2.4rem;
+    margin-bottom: 2.5rem;
+}
+
+#block_7_text_1 {
+    margin-bottom: 4rem;
+}
+
+.block_7_text {
+    color: #505977;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 28px */
+}
+
+#block_7_button_div {
+    width: 17.1rem;
+    margin-bottom: 5rem;
+    margin-top: 10.4rem;
+    margin-left: 8.4rem;
+}
+
+#block_7_button {
+    padding: 1.6rem 3.2rem;
+    align-items: flex-start;
+    gap: 1rem;
+    background:#F9F9F9;
+    border: none;
+    color:#2A254B;
+    font-family: Roboto;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.block_7_right_image {
+    background-image: url(./allPhoto/Image_block_7.jpg);
+    width: 72rem;
+    height: 60.4rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer {
+    width: 144rem;
+    height: 100%;
+    margin: auto;
+    background-color: #2A254B;
+}
+
+.footer_all_text {
+    display: flex;
+    justify-content: space-between;
+    width: 55.4rem;
+    padding-top: 5.8rem;
+    padding-left: 8.2rem;
+    padding-bottom: 5.6rem;
+}
+
+.footer_text_nav {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 12.7rem;
+}
+
+.footer_h3_nav {
+    color:#FFF;
+    font-family: Roboto;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 28px */
+    margin: 0;
+}
+
+.footer_text {
+    color:#FFF;
+    font-family: Roboto;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+    margin-top: 1.2rem;
+}
+
+#block_footer_form_7 {
+    height: 6rem;
+    width: 46.4rem;
+    background-color: rgba(255, 255, 255, 0.15);
+    color:#FFF;
+    border: none;
+    outline: none;
+}
+
+#block_footer_form_7::placeholder {
+    color:#FFF;
+    font-family: Roboto;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; 
+    border: none;
+    outline: none;
+    opacity: 1;
+}
+
+#block_footer_form_7:focus {
+    outline:1px solid rgba(255, 255, 255, 0.15);
+    color: white;
+  }
+
+#button_block_footer {
+    color: #FFF;
+}
+
+ #block_footer_button_div {
+    width: 13.1rem;
+} 
+
+#button_block_footer {
+    padding: 1.6rem 3.2rem;
+    align-items: flex-start;
+    gap: 1rem;
+    background:#F9F9F9;
+    border: none;
+    color:#2A254B;
+    font-family: Roboto;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.block_footer_form {
+    display: flex;
+    width: 62.7rem;
+}
+
+.text_footer_input {
+    margin-bottom: 0.8rem;
+    font-weight: 700;
+    line-height: 140%; 
+}
+
+.footer_block_all {
+    display: flex;
+}
+
+.footer_right_block {
+    margin-top: 5.8rem;
+    margin-left: 9.4rem;
+}
+
+#hr_footer {
+    width: 127.7rem;
+    background: #4E4D93;    
+}
+
+#footer_p {
+    margin-left: 8rem;
+    margin-top: 0;
+}
+
+.footer_icons_all {
+    display: flex;
+    width: 26.4rem;
+    justify-content: space-between;
+}
+
+.icons_footer {
+    width: 2.4rem;
+    height: 2.4rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#inkedin {
+    background-image: url(./allPhoto/Logo--linkedin.svg);
+}
+
+#facebook {
+    background-image: url(./allPhoto/Logo--facebook.svg);
+}
+
+#inst {
+    background-image: url(./allPhoto/Logo--instagram.svg);
+}
+
+#skaype {
+    background-image: url(./allPhoto/Logo--skype.svg);
+}
+
+#twitter {
+    background-image: url(./allPhoto/Logo--twitter.svg);
+}
+
+#pinterest {
+    background-image: url(./allPhoto/Logo--pinterest.svg);
+}
+
+#footer_all_objects {
+    display: flex;
+    justify-content: space-between;
+    width: 127.7rem;
+    height: 3rem;
+    padding-top: 2.4rem;
+    padding-bottom: 5rem;
+}
