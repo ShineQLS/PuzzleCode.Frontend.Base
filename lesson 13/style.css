@@ -8,9 +8,7 @@ vmin – наименьшее из (vw, vh), в IE9 обозначается vm
 vmax – наибольшее из (vw, vh)
 */
 
-* {
-    max-width: 100%;
-}
+
 
 html {
     font-family: Roboto;
@@ -168,6 +166,10 @@ h1 {
     margin-top: 19.2rem;
 }
 
+#block_3_text_h2 {
+    display: none;
+}
+
 #block_3 {
     width: 144rem;
     margin: auto;
@@ -175,7 +177,7 @@ h1 {
 }
 
 #block_3_text_all {
-    width: 86.4%;
+    width:86.4%;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -200,6 +202,10 @@ h2 {
 
 .block_3_text_p {
     color:#2A254B;
+}
+
+#block_3_text_p_mobile {
+    display: none;
 }
 
 #block_3_icons_1 {
@@ -427,14 +433,18 @@ background-size: cover;
 .block_6_text {
     color:#2A254B;
     text-align: center;
-    font-size: 24px;
+    font-size: 2.4rem;
     margin-top: 6.8rem;
 }
 
 #block_6_text {
     color:#2A254B;
-    font-size: 20px;
+    font-size: 2rem;
     margin-top: 1.6rem;
+}
+
+#block_6_text_mobile {
+    display: none;
 }
 
 .block_6_form {
@@ -567,6 +577,10 @@ input:focus {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#block_7_text_mobile {
+    display: none;
 }
 
 footer {
